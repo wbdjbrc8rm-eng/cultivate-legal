@@ -28,7 +28,7 @@
 <body>
 
 <h1>Cultivate — Privacy Policy</h1>
-<p class="updated">Last updated: July 1, 2026</p>
+<p class="updated">Last updated: July 2, 2026</p>
 
 <p>Cultivate ("the app", "we", "us") is a garden-planning app for Android. This policy explains what
 information the app collects, why, and how it's handled. We built Cultivate to work with as little
@@ -77,7 +77,9 @@ submit for plant diagnosis), or any data unrelated to the features above.</p>
 <h2>How your data is stored</h2>
 <ul>
   <li><strong>On your device:</strong> your garden layout, plants, and preferences are stored locally
-      in the app's database. This is the default for every user.</li>
+      in the app's database, protected by standard Android app-sandboxing (no other app can read it).
+      This local database is not separately encrypted beyond that sandboxing. This is the default for
+      every user.</li>
   <li><strong>In the cloud (optional):</strong> if you create an account (Profile → Account &amp; Backup),
       a copy of your garden data is stored with our backend provider, Supabase, so you can restore
       it on a new device. This only happens if you explicitly sign up.</li>
@@ -102,6 +104,14 @@ minimum data needed for its specific purpose:</p>
 <p>We do not use advertising networks, and we do not integrate any analytics or crash-reporting SDK
 that shares data with third parties beyond what's described above.</p>
 
+<h2>AI-generated content</h2>
+<p>The "Garden Advisor" chat and "Diagnose" photo-analysis features are powered by an AI model
+(Anthropic's Claude). Responses — including plant identification, health diagnoses, and care
+recommendations — are <strong>AI-generated</strong>, not reviewed by a human before you see them, and
+can be incorrect. They are not a substitute for professional agronomic, horticultural, or plant-pathology
+advice. Use your own judgment, especially for anything with real consequences for your plants or
+property. We do not use your prompts or photos to train Anthropic's models.</p>
+
 <h2>Permissions the app requests</h2>
 <table>
   <tr><th>Permission</th><th>Purpose</th></tr>
@@ -115,7 +125,25 @@ your address manually instead of granting location access).</p>
 <h2>Data retention and deletion</h2>
 <p>Local garden data stays on your device until you uninstall the app or clear its storage. If you've
 created a cloud-backup account, you can delete your account and its backed-up data by contacting us
-at the email below, and we will delete it within 30 days.</p>
+at the email below. We do not have a self-service delete-account button in the app yet — requests are
+handled manually and completed within 30 days.</p>
+
+<h2>Your rights (GDPR — EEA/UK users)</h2>
+<p>If you're in the EEA or UK, you have the right to access, correct, delete, restrict, or export
+(receive a copy of) your personal data, and to object to our processing of it. To exercise any of
+these, email us at the address below — we do not currently have automated self-service tools for
+these requests, so they're handled manually, and we'll respond within one month as required by
+law. The lawful basis for processing is your consent (creating an account, granting location
+permission) or our legitimate interest in providing the core app functionality you're actively using
+(e.g. showing your garden on a map you asked to see).</p>
+
+<h2>Your rights (California — CCPA/CPRA)</h2>
+<p>California residents have the right to know what personal information we collect, to request its
+deletion, and to non-discrimination for exercising these rights (contact us at the email below).
+<strong>We do not sell or share personal information</strong> as defined under CCPA/CPRA — we don't use
+advertising networks, behavioral-advertising trackers, or data brokers, so there is currently no
+"Do Not Sell or Share My Personal Information" mechanism to opt out of, because no such sharing
+happens.</p>
 
 <h2>Children's privacy</h2>
 <p>Cultivate is not directed at children under 13, and we do not knowingly collect personal
@@ -132,6 +160,8 @@ a change means you accept the updated policy.</p>
 <h2>Contact us</h2>
 <p>Questions about this policy or your data? Email us at
 <a href="mailto:jtwilliams1306@gmail.com">jtwilliams1306@gmail.com</a>.</p>
+
+<p>See also our <a href="terms-of-service.html">Terms of Service</a>.</p>
 
 </body>
 </html>

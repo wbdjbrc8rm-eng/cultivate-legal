@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cultivate — Privacy Policy</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+    line-height: 1.6;
+    color: #241F1A;
+    background: #FBF8F2;
+  }
+  h1 { color: #1E4D2B; margin-bottom: 4px; }
+  .updated { color: #6B5F4D; font-size: 0.9em; margin-bottom: 32px; }
+  h2 { color: #1E4D2B; margin-top: 36px; border-bottom: 1px solid #D9CEB8; padding-bottom: 6px; }
+  a { color: #E8553D; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+  th, td { text-align: left; padding: 8px 12px; border: 1px solid #D9CEB8; font-size: 0.95em; }
+  th { background: #F1EAD9; }
+  ul { padding-left: 22px; }
+  code { background: #F1EAD9; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>Cultivate — Privacy Policy</h1>
+<p class="updated">Last updated: July 1, 2026</p>
+
+<p>Cultivate ("the app", "we", "us") is a garden-planning app for Android. This policy explains what
+information the app collects, why, and how it's handled. We built Cultivate to work with as little
+personal data as possible, and to be upfront about the rest.</p>
+
+<h2>Summary</h2>
+<ul>
+  <li>Your garden data (beds, plants, notes) is stored <strong>on your device</strong> by default.</li>
+  <li>Cloud backup is <strong>optional</strong> — it only happens if you create an account.</li>
+  <li>We do not sell your data, and we do not run ads or third-party trackers/analytics in the app.</li>
+  <li>Location is used only to give you accurate weather, sun, and planting-zone information for
+      your own garden.</li>
+</ul>
+
+<h2>Information we collect</h2>
+
+<table>
+  <tr><th>Data</th><th>When</th><th>Why</th></tr>
+  <tr>
+    <td>Precise or approximate location</td>
+    <td>When you grant location permission, or type an address</td>
+    <td>To find your property on the map, determine your local weather, frost dates, and
+        USDA hardiness zone</td>
+  </tr>
+  <tr>
+    <td>Garden data — bed layout, plant list, planting dates, notes, photos you submit for
+        diagnosis, chat messages you send to the Garden Advisor</td>
+    <td>As you use the app</td>
+    <td>Core app functionality — tracking your garden, sun exposure, watering, and AI features</td>
+  </tr>
+  <tr>
+    <td>Email address and password</td>
+    <td>Only if you create a cloud-backup account</td>
+    <td>To sign you in and associate your backup with your account</td>
+  </tr>
+  <tr>
+    <td>Device notification token</td>
+    <td>If you allow notifications</td>
+    <td>To send you local reminders (watering, frost alerts) generated on your device</td>
+  </tr>
+</table>
+
+<p>We do not collect your name, contacts, camera roll (beyond the specific photo you choose to
+submit for plant diagnosis), or any data unrelated to the features above.</p>
+
+<h2>How your data is stored</h2>
+<ul>
+  <li><strong>On your device:</strong> your garden layout, plants, and preferences are stored locally
+      in the app's database. This is the default for every user.</li>
+  <li><strong>In the cloud (optional):</strong> if you create an account (Profile → Account &amp; Backup),
+      a copy of your garden data is stored with our backend provider, Supabase, so you can restore
+      it on a new device. This only happens if you explicitly sign up.</li>
+</ul>
+
+<h2>Third-party services we use</h2>
+<p>Cultivate relies on a small number of service providers to function. Each only receives the
+minimum data needed for its specific purpose:</p>
+<ul>
+  <li><strong>Mapbox</strong> — powers the map and address search. Your searched address and
+      approximate location are sent to Mapbox to render the map and find your property.
+      (<a href="https://www.mapbox.com/legal/privacy" target="_blank">Mapbox Privacy Policy</a>)</li>
+  <li><strong>Supabase</strong> — our backend provider, used for optional account sign-in, optional
+      cloud backup storage, and to relay AI requests (see below).
+      (<a href="https://supabase.com/privacy" target="_blank">Supabase Privacy Policy</a>)</li>
+  <li><strong>Anthropic (Claude)</strong> — powers the optional "Garden Advisor" chat and "Diagnose"
+      photo-analysis features. When you use these features, your message text, a snapshot of your
+      garden data, and/or the photo you submit are sent (via our server) to Anthropic to generate a
+      response. Anthropic does not use this data to train its models.
+      (<a href="https://www.anthropic.com/legal/privacy" target="_blank">Anthropic Privacy Policy</a>)</li>
+</ul>
+<p>We do not use advertising networks, and we do not integrate any analytics or crash-reporting SDK
+that shares data with third parties beyond what's described above.</p>
+
+<h2>Permissions the app requests</h2>
+<table>
+  <tr><th>Permission</th><th>Purpose</th></tr>
+  <tr><td>Location (fine/coarse)</td><td>Map your property, local weather, planting zone</td></tr>
+  <tr><td>Notifications</td><td>Watering/frost/task reminders</td></tr>
+  <tr><td>Internet</td><td>Required for maps, weather, and AI features</td></tr>
+</table>
+<p>Every permission is optional — if you decline, the app degrades gracefully (e.g., you can type
+your address manually instead of granting location access).</p>
+
+<h2>Data retention and deletion</h2>
+<p>Local garden data stays on your device until you uninstall the app or clear its storage. If you've
+created a cloud-backup account, you can delete your account and its backed-up data by contacting us
+at the email below, and we will delete it within 30 days.</p>
+
+<h2>Children's privacy</h2>
+<p>Cultivate is not directed at children under 13, and we do not knowingly collect personal
+information from children under 13.</p>
+
+<h2>Security</h2>
+<p>Data in transit to our services is encrypted (HTTPS/TLS). Cloud-stored garden backups are
+access-controlled so only your signed-in account can read or write them.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, we'll update the "Last updated" date above. Continued use of the app after
+a change means you accept the updated policy.</p>
+
+<h2>Contact us</h2>
+<p>Questions about this policy or your data? Email us at
+<a href="mailto:jtwilliams1306@gmail.com">jtwilliams1306@gmail.com</a>.</p>
+
+</body>
+</html>
